@@ -79,12 +79,7 @@
 
 /* Loader three: Flip */
 /* TODO: PART 3 - Style the flip card */
-.loader.three {
-	transform-style: preserve-3d;
-}
-
-/* TODO: PART 3 - Add flip animation to flip card */
-.flip-tile {
+.loader.three.flip-tile {
 	width: 100px; 
   	height: 100px; 
 	position: absolute;
@@ -94,6 +89,18 @@
 	animation-iteration-count: infinite;
 	transform-style: preserve-3d;
 }
+
+/* TODO: PART 3 - Add flip animation to flip card */
+/* .flip-tile {
+	width: 100px; 
+  	height: 100px; 
+	position: absolute;
+  	background-color: #F98527; 
+	animation-name: flip;
+	animation-duration: 2.6s;
+	animation-iteration-count: infinite;
+	transform-style: preserve-3d;
+} */
 
 /* TODO: PART 3 - Write flip animation */
 @keyframes flip {
