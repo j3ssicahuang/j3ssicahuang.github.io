@@ -85,7 +85,13 @@ body{
     width: 100%;
     padding: 100px;
     background-color:#FAF8EB;
-
+}
+.lightbox .instr h2 {
+    color: #92591E;
+}
+.lightbox .instr ul li {
+    margin-bottom: 10px;
+    color: #92591E;
 }
 .lightbox .caption {
     box-sizing: border-box;
@@ -95,5 +101,4 @@ body{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-
 
