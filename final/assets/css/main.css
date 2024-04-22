@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    background-image: url("assets/imgs/pasta_background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+.label-word{
+    font-size: 80px;
+    color: #92591E;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -150px;
+}
+.menu-label{
+    font-size: 20px;
+    color: #92591E;
+    cursor: pointer;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.menu-label:hover{
+    text-decoration: underline;
+}
+.menu-label a{
+    color: #92591E;
+    text-decoration: none;
+}
